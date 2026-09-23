@@ -1,0 +1,27 @@
+# Entornos
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Datos y resultados
+results/*.csv
+results/*.log
+*.sqlite
+*.db
+
+# Docker
+*.pid
+
+# Editores
+.vscode/
+.idea/
+*.swp
